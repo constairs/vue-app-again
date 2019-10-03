@@ -40,6 +40,7 @@ module.exports = {
         'e' // for e.returnvalue
       ]
     }],
+    "no-unused-vars": 1,
     // allow optionalDependencies
     'import/no-extraneous-dependencies': ['error', {
       optionalDependencies: ['test/unit/index.js']
